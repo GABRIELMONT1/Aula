@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+    background-color: #212121;
+    color: aqua;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 3%;
+    gap: 19px;
+}
+
+.butao {
+    border: none; /* sem borda */
+    background-color: #4CAF50; /* cor de fundo */
+    color: white; /* cor do texto */
+    padding: 15px 32px; /* tamanho do botão */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* sem decoração de texto */
+    display: inline-block; /* exibição em linha */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 4px 2px; /* margem */
+    cursor: pointer; /* cursor ao passar o mouse */
+    border-radius: 8px; /* arredondamento das bordas */
+    display: block;   
+    align-self: center;
+    text-align: center;
+}
+
+.imagem{
+    display: block;
+    align-self: center;
+    text-align: center;
+}
+.butao {
+    width: 100px;
+    margin: 0 auto;
+}

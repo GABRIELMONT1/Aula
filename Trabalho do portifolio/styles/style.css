@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: gray;
+    width: auto;
+    height: auto;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
